@@ -1,5 +1,6 @@
 from multiplicationOfMatrix import inputMatrix
 
 if __name__ == "__main__":
-    inpMatrix = inputMatrix()
-    print(inpMatrix["order"], inpMatrix["matrix"])
+    A = inputMatrix("A")
+    B = inputMatrix("B")
+    print(A["matrix"], B["matrix"])
